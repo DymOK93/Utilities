@@ -14,7 +14,7 @@ Dmitry Bolshakov, September 2020
 #include <algorithm>
 #include <type_traits>
 
-namespace memory {
+namespace utility::memory {
 	template <class Ty>
 	class PoolAllocator : PoolAllocatorBase<Ty> {
 	public:
@@ -206,7 +206,7 @@ namespace memory {
 
 namespace std {
 	template <class Ty>
-	void swap(memory::PoolAllocator<Ty>& left, memory::PoolAllocator<Ty>& right) noexcept {
+	void swap(utility::memory::PoolAllocator<Ty>& left, utility::memory::PoolAllocator<Ty>& right) noexcept {
 		return left.swap(right);
 	}
 }

@@ -1,6 +1,6 @@
 #include "execution_algorithms.h"
 
-namespace Algo::Execution {
+namespace utility::execution {
 	size_t hardware_thread_count() {
 		return static_cast<size_t>(std::thread::hardware_concurrency());	//hardware_concurrency() return type is unsigned int
 	}

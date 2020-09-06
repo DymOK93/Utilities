@@ -4,7 +4,7 @@
 #include <cassert>
 #include <algorithm>
 
-namespace memory {
+namespace utility::memory {
 	template <class Ty>
 	class PoolAllocatorBase {
 	public:

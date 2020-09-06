@@ -1,7 +1,7 @@
 #pragma once
 #include "pool_allocator_base.h"
 
-namespace memory {
+namespace utility::memory {
 	template <class Ty, size_t capacity>
 	class StaticPoolAllocator : PoolAllocatorBase<Ty> {
 	public:

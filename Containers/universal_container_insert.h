@@ -2,7 +2,7 @@
 #include <type_traits>
 #include <utility>
 
-namespace Algo::Container {
+namespace utility::container {
 	template <class Container, class Ty>
 	decltype(auto) insert(Container& cont, Ty&& value) {
 		if constexpr (is_linear_v<Container>) {

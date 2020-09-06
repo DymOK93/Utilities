@@ -3,7 +3,7 @@
 #include <memory>
 #include <type_traits>
 
-namespace memory {
+namespace utility::memory {
 #ifdef _DEBUG
 	#define ALLOCATOR_VERIFY(cond, what) assert(cond && what)
 	#define CONSTEXPR_ALLOCATOR_VERIFY(cond, what) static_assert(cond, what)

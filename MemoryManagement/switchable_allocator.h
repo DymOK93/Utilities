@@ -1,7 +1,7 @@
 #pragma once
 #include <memory>
 
-namespace memory {
+namespace utility::memory {
 	namespace switchable_allocator {
 		template <class AllocWithState, class AllocWithoutState>
 #if (defined(_MSC_VER) && defined(_DEBUG))

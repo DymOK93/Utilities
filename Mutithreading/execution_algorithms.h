@@ -9,7 +9,7 @@
 #include <type_traits>
 
 /*C++17 or newer needed*/
-namespace Algo::Execution {
+namespace utility::execution {
 	size_t hardware_thread_count();
 
 	struct Pages {

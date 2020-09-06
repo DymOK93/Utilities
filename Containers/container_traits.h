@@ -1,7 +1,7 @@
 #pragma once
 #include <type_traits>
 
-namespace Algo::Container {
+namespace utility::container {
 	template <class Ty, class = void>
 	struct is_iterable
 		: std::false_type {};
